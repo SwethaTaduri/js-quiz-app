@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Quiz App </title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JS">
+    <meta name="description" content="QuizApp">
+    <meta name="author" content="SwethaTaduri">
+</head>
+
+<body>
+    <div class="instructions">
+        <h1> QUIZ APP </h1>
+        <h3> Guidelines </h3>
+        <ol>
+            <li> There are total five questions. </li>
+            <li> You can attempt each question only once. </li>
+            <li> Each question carries one mark. </li>
+            <li> No Megative Marking. </li>
+            <li> Questions are Multiple Choice Questions. </li>
+            <li> Don't plagirize.</li>
+            <li> You can attempt the quiz multiple times </li>
+        </ol>
+        <button class="start-btn"> Start Quiz </button>
+    </div>
+
+    <div class="quiz hide">
+        <div class="question-category"></div>
+        <div>
+            <span class="question-count"></span>
+            <span class="score-count"></span>
+        </div>
+
+        <div class="question-container"> </div>
+        <div class="option-container"> </div>
+        <div class="button-container">
+            <button class="quit"> Quit </button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <div class="result hide"> </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"> </script>
+</body>
+
+</html>
